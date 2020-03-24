@@ -55,3 +55,4 @@ const Fn = curry((arr, n) => F(rotateN(n, arr)));
 const maxFn = arr => maxEl(times(Fn(arr), arr.length));
 
 console.log(maxFn(dat.arr));
+console.log(maxFn([ 1000007 ]));
